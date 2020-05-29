@@ -27,18 +27,29 @@ h3{
     cursor: pointer;
     
 }
-.parent{
-    
+.parent, .open{
+    display: none;
     margin-left: 500px;
     margin-right: 500px;
     padding: 20px;
 }
-.container, .container2, .container3, .container4, .container5{
+.container {
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px solid #AAA;
+    width: 600px;
+}
+.container2, .container3, .container4, .container5{
     background-color: white;
     padding: 20px;
     display: none;
     border-radius: 3px solid #AAA;
     width: 600px;
+}
+
+.active .show-next1{
+    background-color: green;
 }
 .container5 h2 {
     margin-top: 30px;
@@ -76,7 +87,6 @@ input {
 }
 .next{
     background-color: rgb(142, 189, 95);
-    display: none;
     margin-top: 20px;
     text-align: center;
     width: 60px;
@@ -90,7 +100,6 @@ input {
     background-color: rgb(136, 180, 93);
 }
  .show-next {
-     display: none;
     text-align: center;
 }
  .show-next  .show-next1{
@@ -101,42 +110,10 @@ input {
     border-radius: 50%;
     
 }
-.container2 .show-next {
-    margin-top: 20px;
-    margin-left:95px ;
+.show-next1.active{
+    background: green;
 }
-.container2 .show-next  .show-next1{
-   display: inline-block;
-    background-color: darkgray;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    
-}
-.container3 .show-next {
-    margin-top: 20px;
-    margin-left:95px ;
-}
-.container3 .show-next  .show-next1{
-   display: inline-block;
-    background-color: darkgray;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    
-}
-.container4 .show-next {
-    margin-top: 20px;
-    margin-left:95px ;
-}
-.container4 .show-next  .show-next1{
-   display: inline-block;
-    background-color: darkgray;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    
-}
+
 
 @media (max-width:500px){
    

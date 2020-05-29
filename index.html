@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- header -->
     <header>
         <h3>Resume Management</h3>
         <div class="btn-header">
@@ -17,41 +18,49 @@
             <div class="btn-head">Contact</div>
         </div>
     </header>
+    <!-- header -->
     <h1 id="h1">Hello & welcome!</h1>
+    <!-- parent container -->
     <div id="parent" class="parent">
+        <!-- container1 -->
         <div class="container cont" id="container">
             <h2 >Create Resume</h2>
             <p>FIRST NAME</p>
-            <input id="input1" type="text" placeholder="Enter your First name">
+            <input id="InputFirstName" type="text" placeholder="Enter your First name">
             <P>LAST NAME</P>
-            <input id="input2" type="text" placeholder="Enter your Last name">
+            <input id="InputLastName" type="text" placeholder="Enter your Last name">
             <p>JOB TITLE</p>
-            <input id="input3" type="text" placeholder="Enter your job title">
+            <input id="InputJob" type="text" placeholder="Enter your job title">
             <p>EMAIL</p>
-            <input id="input4" type="email" placeholder="Enter your email">
+            <input id="InputEmail" type="email" placeholder="Enter your email">
             <p>PHONE</p>
-            <input id="input5" type="text" placeholder="Enter your phone number">
+            <input id="InputPhone" type="text" placeholder="Enter your phone number">
             <p>ADRESS</p>
-            <input id="input6" type="text" placeholder="Enter your adress">
-            
+            <input id="InputAdress" type="text" placeholder="Enter your adress">
         </div>
+         <!-- container1 -->
+          <!-- container2 -->
         <div class="container2 cont" id="container2">
             <h2>Create Resume</h2>
             <p>PROFESSIONAL EXPERIENCE</p>
-            <input id="input7" type="text">
-        
-            
+            <input id="InputExp" type="text">
         </div>
+         <!-- container2 -->
+          <!-- container3 -->
         <div id="container3" class="container3 cont">
             <h2>Create Resume</h2>
             <p>EDUCATION</p>
-            <input id="input8" type="text">
+            <input id="InputEducation" type="text">
         </div>
+        <!-- container3 -->
+        <!-- container4 -->
         <div id="container4" class="container4 cont">
             <h2>Create Resume</h2>
             <p>SKILLS</p>
-            <input id="input9" type="text">
+            <input id="InputSkills" type="text">
         </div>
+         <!-- container4 -->
+          <!-- container5 -->
         <div id="container5" class="container5 cont">
             <h1 id="name"></h1>
             <p id="job-info"></p>
@@ -68,15 +77,19 @@
             <h2>Skills</h2>
             <p id="skills-info"></p>
         </div>
-        <button id="next" class="next">NEXT</button>
+         <!-- container4 -->
+         <!-- button sign for next step containers -->
+        <button  id="next" class="next active">NEXT</button>
             <div class="show-next" id="show-next">
-                <div id="show-next1" class="show-next1"></div>
+                <div  class="show-next1 active"></div>
                 <div  class="show-next1"></div>
                 <div  class="show-next1"></div>
                 <div  class="show-next1"></div>
             </div>
+            <!-- button sign for next step containers -->
+            <div id="outPut"></div>
     </div>
-    
+     <!-- parent container -->
     <script src="main.js"></script>
 </body>
 </html>
